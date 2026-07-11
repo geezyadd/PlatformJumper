@@ -1,0 +1,86 @@
+# Unity project is located in /PlatformJumper.
+# Keep Assets, Packages and ProjectSettings under version control.
+
+# Unity-generated directories
+/PlatformJumper/[Ll]ibrary/
+/PlatformJumper/[Tt]emp/
+/PlatformJumper/[Oo]bj/
+/PlatformJumper/[Bb]uild/
+/PlatformJumper/[Bb]uilds/
+/PlatformJumper/[Ll]ogs/
+/PlatformJumper/[Uu]ser[Ss]ettings/
+/PlatformJumper/[Mm]emoryCaptures/
+/PlatformJumper/[Rr]ecordings/
+/PlatformJumper/.utmp/
+*.log
+
+# Blender backup files
+*.blend1
+*.blend1.meta
+
+# IDE and editor caches
+.idea/
+.vs/
+.vscode/
+.consulo/
+.gradle/
+*.DotSettings.user
+
+# Generated IDE project files
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Generated debug and crash files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+mono_crash.*
+
+# Build artifacts
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+crashlytics-build.properties
+
+# Unity Test Runner
+InitTestScene*.unity*
+
+# Addressables-generated content
+/PlatformJumper/ServerData/
+/PlatformJumper/[Aa]ssets/StreamingAssets/aa*
+/PlatformJumper/[Aa]ssets/AddressableAssetsData/link.xml*
+/PlatformJumper/[Aa]ssets/Addressables_Temp*
+/PlatformJumper/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# Visual Scripting-generated files
+/PlatformJumper/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/PlatformJumper/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/PlatformJumper/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/
+/PlatformJumper/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# Other Unity-generated content
+/PlatformJumper/[Aa]ssets/Plugins/Editor/JetBrains*
+/PlatformJumper/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/PlatformJumper/[Aa]ssets/[Ss]ceneDependencyCache*
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
