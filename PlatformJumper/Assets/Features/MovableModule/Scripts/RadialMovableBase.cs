@@ -102,7 +102,6 @@ namespace Features.MovableModule.Scripts {
 
         public virtual void Jump() {
             _rb.linearVelocity = new Vector3(_rb.linearVelocity.x, 0f, _rb.linearVelocity.z);
-            Debug.LogError(_rb.transform.up * _jumpForce);
             _rb.AddForce(_rb.transform.up * _jumpForce, ForceMode.Impulse);
         }
     }

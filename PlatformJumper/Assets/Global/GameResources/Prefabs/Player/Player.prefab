@@ -134,8 +134,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: MovableModule::Features.MovableModule.Scripts.SimpleRadialMovable
   _floatingController: {fileID: 7784253111698622454}
   _orbitCenter: {fileID: 0}
-  _speed: 10
-  _jumpForce: 6
+  _speed: 5
+  _jumpForce: 8
   _radiusCorrectionStrength: 50
   _rotationSpeed: 360
   _rb: {fileID: 7713440406874803919}

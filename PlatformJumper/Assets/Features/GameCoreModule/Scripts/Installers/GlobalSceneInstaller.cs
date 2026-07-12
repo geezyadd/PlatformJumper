@@ -1,5 +1,6 @@
 using Features.GameFlowStateMachineModule;
 using Features.GameFlowStateMachineModule.Installers;
+using Features.InputModule.Realization.Scripts;
 using Zenject;
 
 namespace GameCore.Installers {
@@ -7,7 +8,7 @@ namespace GameCore.Installers {
         public override void InstallBindings() {
             DataInstaller.Install(Container);
             GameFlowStateMachineModuleInstaller.Install(Container);
-            Container.BindInterfacesTo<GameFlowSceneTransitionSystem>().AsSingle().NonLazy();
+            InputModuleInstaller.Install(Container);
         }
     }
 }

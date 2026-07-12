@@ -11,9 +11,8 @@ namespace PinePie.SimpleJoystick
         Dynamic,
         Floating
     }
-
-    [AddComponentMenu("PinePie/Joystick Controller")]
-    public class JoystickController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
+    
+    public class JoystickUIController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
     {
         [Header("References")]
         public RectTransform joystickBase;
