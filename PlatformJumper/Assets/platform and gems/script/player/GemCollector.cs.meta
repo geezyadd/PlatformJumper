@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 16356cfce33b4964ca34fe21b7fb4c18
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308717
+  packageName: Platform and gems 2.5D
+  packageVersion: 1.0
+  assetPath: Assets/platform and gems/script/player/GemCollector.cs
+  uploadId: 732681
