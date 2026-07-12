@@ -140,6 +140,11 @@ MonoBehaviour:
   _radiusCorrectionStrength: 50
   _rotationSpeed: 360
   _rb: {fileID: 7713440406874803919}
+  _wallCheckOrigin: {fileID: 1466919210624152440}
+  _wallCheckDistance: 0.5
+  _wallMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &2977166083852447107
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,7 +496,7 @@ MonoBehaviour:
   _target: {fileID: 2103025905113778293}
   _zeroY: 1
   _rotationSpeed: 360
-  _minSpeed: 0.01
+  _minSpeed: 0.46
 --- !u!1 &6929126098094853873
 GameObject:
   m_ObjectHideFlags: 0
