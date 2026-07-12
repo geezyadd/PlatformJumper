@@ -1,0 +1,14 @@
+{
+    "name": "AnimationModule",
+    "rootNamespace": "Features.AnimationModule",
+    "references": ["GUID:c999b4bb16baf9e46a1224207df5e138"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

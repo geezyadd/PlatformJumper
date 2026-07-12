@@ -68,6 +68,9 @@ namespace Features.FloatingControllerModule {
             float compression = _hit.distance - _rideHeight;
             float springForce = (compression * _rideSpringStrength) - (relativeVelocity * _rideSpringDamper);
 
+            if (springForce > 0f)
+                return;
+
             _rb.AddForce(castDir * springForce, ForceMode.Force);
 
             if (_applyForceToHitBody && hitBody != null)

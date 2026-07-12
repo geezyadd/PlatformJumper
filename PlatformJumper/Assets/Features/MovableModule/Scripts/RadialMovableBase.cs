@@ -1,3 +1,4 @@
+using System;
 using Features.FloatingControllerModule;
 using UnityEngine;
 
@@ -14,6 +15,7 @@ namespace Features.MovableModule.Scripts {
         private float _orbitRadius;
 
         public bool IsGrounded => _floatingController.RayDidHit;
+        public Rigidbody Rigidbody => _rb;
 
         protected virtual void Awake() {
             CacheOrbitRadius();
