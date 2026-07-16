@@ -76,7 +76,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 889426020135044059}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -110,7 +110,7 @@ MonoBehaviour:
   _downDir: {x: 0, y: -1, z: 0}
   _groundMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 192
   _castLength: 2
   _castPoints:
   - {fileID: 1466919210624152440}
@@ -144,7 +144,7 @@ MonoBehaviour:
   _wallCheckDistance: 0.5
   _wallMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 128
 --- !u!1 &2977166083852447107
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,8 +219,8 @@ Camera:
   m_GameObject: {fileID: 3123171146674442632}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.1882353, g: 0.68235296, b: 0.7490196, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -716,7 +716,7 @@ MonoBehaviour:
   _distanceToGround: 0.21
   _walkableMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 192
   _toePositionOffset: 0.25
   _smoothSpeed: 20
   _toeLocalDirection: {x: 0, y: 0, z: 1}

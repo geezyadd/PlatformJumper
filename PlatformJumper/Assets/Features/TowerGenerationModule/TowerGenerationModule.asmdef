@@ -1,0 +1,17 @@
+{
+    "name": "TowerGenerationModule",
+    "rootNamespace": "Features.TowerGenerationModule",
+    "references": [
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:c999b4bb16baf9e46a1224207df5e138"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
