@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f64789012345a6b7c8d9e0f1a2b2530d, type: 3}
+  m_Name: TowerGenerationConfig
+  m_EditorClassIdentifier: Features.TowerGenerationModule.Scripts.TowerGenerationConfig
+  _segmentHeight: 20.82
+  _platformOrbitRadius: 6.2
+  _poolPreloadCount: 5
+  _minDeltaY: 10
+  _maxDeltaY: 10
+  _maxDeltaAngleDegrees: 90
+  _firstPlatformHeight: 1.5
+  _wallSpawnChance: 0.4
+  _cylinderSegmentPrefabs:
+  - {fileID: 200006, guid: 78901234567a8b9c0d1e2f3a4b475f60, type: 3}
+  - {fileID: 200006, guid: b10123456789c0d1e2f3a4b475f61000, type: 3}
+  - {fileID: 200006, guid: b20123456789c0d1e2f3a4b475f62000, type: 3}
+  _platformPrefabs:
+  - {fileID: 100001, guid: 89012345678a9b0c1d2e3f4a5b586071, type: 3}
+  - {fileID: 100001, guid: a10123456789b0c1d2e3f4a5b5860720, type: 3}
+  - {fileID: 100001, guid: a20123456789b0c1d2e3f4a5b5860730, type: 3}
+  - {fileID: 100001, guid: a30123456789b0c1d2e3f4a5b5860740, type: 3}
+  - {fileID: 100001, guid: be12b669e01c3f14b95ad06e57208bfb, type: 3}

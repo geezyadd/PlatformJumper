@@ -1,8 +1,10 @@
+using Features.TowerGenerationModule.Scripts;
 using Zenject;
 
 namespace GameCore.Installers {
     public class SessionSceneInstaller : MonoInstaller<SessionSceneInstaller> {
         public override void InstallBindings() {
+            TowerGenerationInstaller.Install(Container);
         }
     }
 }
